@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Website Landing Page</title>
+    <link rel="stylesheet" href="PepsiDesign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="../GamesImages/RP.png"></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">NewsLetter</a></li>
+                    <li><a href="#">Contact</a></li>
+                    </ul>
+
+        </header>
+<div class="content">
+    <div class="textBox">
+    <h2>pepsi @ it's finest</h2><br>
+        <p>For that <span>irrestible thirst</span> for victories, to clear</p> 
+        every depression and have a clear mind, to draw motivation
+         for the great task ahead,<strong>PEPSI</strong><br> made out of the 
+            the purest natural resources gat you covered.<br>  
+            <a href="#">View All Products</a>
+    </div>
+            <div class="imgBox">
+           <img src="../GamesImages/x.png" class="pepsi">
+        </div>
+    </div>
+    <ul class="thumb">
+            <li><img src="../GamesImages/pepsiGold.png" onclick="imgSlider('../GamesImages/pepsiGold.png');changeBgColor('#0062be')"></li>
+            <li><img src="../GamesImages/pepsiR.png" onclick="imgSlider('../GamesImages/pepsiR.png');changeBgColor('#e60c2c')"></li>
+                    <li> <img src="../GamesImages/PepsiB.png"onclick="imgSlider('../GamesImages/PepsiB.png');changeBgColor('#1e1e1e')"></li>
+                    </ul>
+                    <ul class="sci">
+                        <li><a href="#"><img src="../GamesImages/fb.png"></a></li>
+                        <li><a href="#"><img src="../GamesImages/T.png"></a></li>
+                        <li><a href="#"><img src="../GamesImages/In.jpeg"></a></li>
+                    
+                    </ul>            
+
+</section>
+<script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector('.pepsi').src = anything
+    }
+        function changeBgColor(color){
+            const sec = document.querySelector('.sec')
+            sec.style.background  =  color;
+        
+    }
+    </script>
+</body>
+</html>

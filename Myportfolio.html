@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet"href="Myportfolio.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo"><span>My</span>Portfolio</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+                </header>
+                <div class="content">
+                    <h3>Hey_</h3>
+                    <h2>My name <span id="text">is Godwin</span></h2>
+                    <h4><p>* I am a business developer</h4></p>
+                   <h3> <p>* A Solar System application designer and installer</p></h3>
+                    <h3><p>* Energy Auditor</p></h3>
+                    <h3><p>* Web developer using html, css and javascript</p></h3>
+                    <h3><p>* computer hardware repair and maintainance</p> </h3>
+                    <h3><p>*content creator.</p></h3>
+                    <button>Hire me </button>
+                    <button class="chat"> <ion-icon
+                     name="chatbubbles-outline"></ion-icon>Let's chat
+                     <ion-icon name="logo-whatsapp"></ion-icon>+2348160678975</button>
+                    </div>
+
+                    <ul class="sci">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"></a><ion-icon name="logo-instagram"></ion-icon></li>
+                        <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        </ul>
+                        <div class="dayNight">
+                            <ion-icon name="moon-outline"></ion-icon>
+                            <ion-icon name="sunny-outline"></ion-icon>
+</section>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    
+    let banner = document.querySelector('.banner');
+    let dayNight = document.querySelector('.dayNight');
+    dayNight.onclick = function(){
+        banner.classList.toggle('night')
+    }
+    </script>
+</body>
+</html>                                                                                                                                                                                     
