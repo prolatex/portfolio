@@ -47,17 +47,17 @@ header .logo span{
 }
 header ul{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 header ul li {
     list-style: none;
 }
 header ul li a{
     text-decoration: none;
-    font-weight: 250;
-    font-size: 1em;
+    font-weight: 200;
+    font-size: 1.75em;
     color: #333;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 .content{
     position: relative;
@@ -66,7 +66,7 @@ header ul li a{
 }
 
 .content h4{
-    font-size: 1.25em;
+    font-size: 1.5em;
     color: #333;
     font-weight: 150;
     transition: 0.5s;
@@ -74,7 +74,7 @@ header ul li a{
 
 .content h3 span{
     color: #e91e63;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 .content p{
 font-size: 1.25em;
@@ -130,7 +130,7 @@ img{
     position: relative;
     display: flex;
     -webkit-animation-name:slide_animation;
-    -webkit-animation-duration: 30s;
+    -webkit-animation-duration: 25s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
 -webkit-animation-play-state: running;
@@ -168,7 +168,7 @@ img{
 }
 .sci{
     position: absolute;
-    bottom: -150px;
+    bottom: -180px;
     left: 50px;
     display: flex;
     gap: 10px;
@@ -176,7 +176,7 @@ img{
 }
 .sci li a{
  text-decoration: none;
- font-size: 0.75em;
+ font-size: 1.75em;
  color: #333;   
 }
 .sci li a:hover{
@@ -184,7 +184,7 @@ img{
 }
 .dayNight{
     position: absolute;
-    bottom: -150px;
+    bottom: -180px;
     left: 60%;
     transform: translateX(-50%);
     width: 30px;
